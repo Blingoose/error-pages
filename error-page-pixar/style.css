@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  line-height: 0;
+}
+.clr {
+  clear: both;
+}
+@font-face {
+  font-family: brandon-reg;
+  src: url(fonts/Brandon_reg.otf);
+}
+@font-face {
+  font-family: brandon-gro;
+  src: url(fonts/brandon-grotesque.woff);
+}
+@font-face {
+  font-family: futura-pt;
+  src: url(fonts/futura-light-pt.ttf);
+}
+@font-face {
+  font-family: brandon-bold-italic;
+  src: url(fonts/Brandon_bold_italic.woff);
+}
+@font-face {
+  font-family: brandon-light-italic;
+  src: url(fonts/Brandon_light_italic.woff);
+}
+
+h1 {
+  font-family: brandon-reg;
+}
+h2 {
+  font-family: futura-pt;
+}
+#header-main {
+  background-color: #fff;
+  width: 1440px;
+  height: 103.967px;
+  padding: 38px 118px;
+  line-height: 37.4px;
+}
+#container-top-left {
+  width: 282.117px;
+  height: 27.96px;
+  float: left;
+  padding: 0 24px;
+}
+#branding-logo {
+  width: 129px;
+  height: 27.96px;
+}
+#container-top-right {
+  float: right;
+  width: 921.883px;
+  height: 27.96px;
+  text-align: right;
+}
+#nav-bar {
+  width: 850px;
+  margin: 15px 0 0 40px;
+  padding: 0 34px 0 0px;
+  height: 27.96px;
+  font-family: brandon-reg;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+#container-top-right a {
+  margin: auto 10px auto 10px;
+  padding: 9.27px 0;
+  text-decoration: none;
+  color: #1d1d1d;
+}
+#container-top-right a:hover {
+  color: rgba(29, 29, 29, 0.4);
+  transition-duration: 0.3s;
+}
+#main-container {
+  width: 1440px;
+  height: 655.567px;
+  padding: 80px 142px;
+}
+#left-main-section {
+  float: left;
+}
+#left-main-section img {
+  width: 362.65px;
+  height: 489.6px;
+}
+#right-main-section {
+  float: left;
+  width: 793.35px;
+  height: 489.6px;
+  position: relative;
+  top: 21.2%;
+  left: 2.2%;
+  padding: 17px 17px 0 17px;
+}
+#right-main-section h1 {
+  color: #1d1d1d;
+  text-align: center;
+  font-family: brandon-gro;
+  line-height: 51px;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 51px;
+  letter-spacing: 0.29em;
+  line-height: 1em;
+  text-transform: uppercase;
+  width: 759.333px;
+}
+#right-main-section p {
+  text-align: center;
+  font-family: futura-pt;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  white-space: pre-wrap;
+  letter-spacing: -0.03em;
+  line-height: 1.7em;
+  color: rgba(29, 29, 29, 0.7);
+  width: 759.333px;
+  text-transform: none;
+}
+#footer-main {
+  width: 1440px;
+  height: 275.6px;
+  padding: 0 142px;
+  text-align: center;
+}
+#follow-icons {
+  width: 1190px;
+  height: 37.4px;
+}
+#follow-icons a {
+  text-decoration: none;
+}
+.fa {
+  font-size: 24px;
+  letter-spacing: 0.5em;
+  color: #222;
+}
+
+.fa:hover {
+  color: rgb(33, 133, 255);
+  transition: 0.1s;
+}
+#bottom-links {
+  width: 1156px;
+  height: 178.2px;
+}
+#bottom-links h3 {
+  width: 957px;
+  height: 71.4px;
+  font-family: brandon-light-italic;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.29em;
+  line-height: 1.7em;
+  text-transform: uppercase;
+  padding: 30px 0 0 180px;
+}
+#bottom-links a {
+  color: #1d1d1d;
+  transition-duration: 0.2s;
+}
+#bottom-links a:hover {
+  color: rgba(29, 29, 29, 0.4);
+  transition-duration: 0.2s;
+}
